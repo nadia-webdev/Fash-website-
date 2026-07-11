@@ -504,6 +504,7 @@ footer{
     margin-top:20px;
     display:flex;
     gap:18px;
+    column: row;
 }
 
 .social-icons a{
@@ -523,6 +524,7 @@ footer{
     background: transparent;
     border: none;
     box-shadow: none;
+}
 
 .footer-newsletter input{
     width:100%;
