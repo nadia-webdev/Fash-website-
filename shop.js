@@ -19,19 +19,22 @@ function displayProducts(products){
 
                 <div class="wishlist">❤</div>
 
-                <button class="quick-view">
-                    Quick View
-                </button>
-
+                <a href="product.html?id=${product.id}" class="quick-view">
+    Quick View
+</a>
             </div>
 
             <h3>${product.title}</h3>
 
             <p>$${product.price}</p>
 
-            <button class="cart-btn">
-                Add To Cart
-            </button>
+            <button class="cart-btn"
+    data-id="${product.id}"
+    data-title="${product.title}"
+    data-price="${product.price}"
+    data-image="${product.image}">
+    Add To Cart
+</button>
 
         </div>
 
