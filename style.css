@@ -518,13 +518,13 @@ footer{
 }
 
 /* Newsletter */
-.newsletter{
+.footer-newsletter{
     padding:0;
     background: transparent;
     border: none;
     box-shadow: none;
 
-.newsletter input{
+.footer-newsletter input{
     width:100%;
     padding:12px 5px;
     border:none;
@@ -535,7 +535,7 @@ footer{
     font-size:15px;
 }
 
-.newsletter button{
+.footer-newsletter button{
     background:#111;
     color:#fff;
     border:none;
@@ -546,7 +546,7 @@ footer{
     transition:.3s;
 }
 
-.newsletter button:hover{
+.footer-newsletter button:hover{
     background:#444;
 }
 
