@@ -405,10 +405,9 @@ footer{
 }
 
 .newsletter{
-    padding:0;
-    background:transparent;
-    border: none;
-    box-shadow: none;
+    padding:50px;
+    background:#f8f8f8;
+    
 }
 
 .newsletter h2{
@@ -519,6 +518,11 @@ footer{
 }
 
 /* Newsletter */
+.newsletter{
+    padding:0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
 
 .newsletter input{
     width:100%;
