@@ -404,15 +404,10 @@ footer{
     color:white;
 }
 
-    .newsletter{
-    max-width:900px;
-    margin:60px auto;
-    padding:50px;
-    background:#fff;
-    border-radius:15px;
+.newsletter{
+    padding:80px 8%;
+    background:#f8f8f8;
     text-align:center;
-    box-shadow:0 5px 20px rgba(0,0,0,0.1);
-    
 }
 
 .newsletter h2{
